@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function miFuncion() {  
+        // var variableLocal = "Soy una variable local";  
+        // console.log(variableLocal);  
+        // }
+        // miFuncion(); // Salida: Soy una variable local  
+        // console.log(variableLocal); // Error: variableLocal no está definida
+        // var variableGlobal = "Soy una variable global";  
+        // function miFuncion() {  
+        // console.log(variableGlobal);  
+        //     
+        // miFuncion(); // Salida: Soy una variable global  
+        // console.log(variableGlobal); // Salida: Soy una variable global 
+        var globalVar = 10;
+        function myFunction(){
+            var locarVar = 20;
+            console.log(globalVar);
+            console.log(locarVar);
+        }
+        myFunction();
+        console.log(globalVar);
+        console.log(locarVar);
+
+
+    </script>
+</body>
+</html>
+Crea una función llamada myFunction que contenga una variable local 
+llamada localVar con el valor 20. Dentro de la función, muestra por consola el valor 
+de una variable global llamada globalVar que tiene el valor 10 y la variable localVar. 
+Llama a la función myFunction y luego intenta mostrar por consola el valor de 
+globalVar fuera de la función. Intenta también mostrar por consola el valor de 
+localVar fuera de la función y observa qué ocurre.
