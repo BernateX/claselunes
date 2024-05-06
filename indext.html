@@ -1,41 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        // function miFuncion() {  
-        // var variableLocal = "Soy una variable local";  
-        // console.log(variableLocal);  
-        // }
-        // miFuncion(); // Salida: Soy una variable local  
-        // console.log(variableLocal); // Error: variableLocal no está definida
-        // var variableGlobal = "Soy una variable global";  
-        // function miFuncion() {  
-        // console.log(variableGlobal);  
-        //     
-        // miFuncion(); // Salida: Soy una variable global  
-        // console.log(variableGlobal); // Salida: Soy una variable global 
-        var globalVar = 10;
-        function myFunction(){
-            var locarVar = 20;
-            console.log(globalVar);
-            console.log(locarVar);
+        //     // function miFuncion() {  
+        //     // var variableLocal = "Soy una variable local";  
+        //     // console.log(variableLocal);  
+        //     // }
+        //     // miFuncion(); // Salida: Soy una variable local  
+        //     // console.log(variableLocal); // Error: variableLocal no está definida
+        //     // var variableGlobal = "Soy una variable global";  
+        //     // function miFuncion() {  
+        //     // console.log(variableGlobal);  
+        //     //     
+        //     // miFuncion(); // Salida: Soy una variable global  
+        //     // console.log(variableGlobal); // Salida: Soy una variable global 
+        //     var globalVar = 10;
+        //     function myFunction() {
+        //         var locarVar = 20;
+        //         console.log(globalVar);
+        //         console.log(locarVar);
+        //     }
+        //     myFunction();
+        //     console.log(globalVar);
+        //     console.log(locarVar);
+        //     var num1 = 1;
+        //     var num2 = 2;
+        //     let Sumar = num1 + num2;
+        //     console. log(Sumar);
+        //     Let Multiplicar =num1 * num2;
+        //     console.log(Multiplicar);
+        //     if (num1)=num2) {
+        //     console. log (num+" es mayor que "+num2);
+        //     }else if (num1-=num2){
+        //     console. log (num+" es igual que "+num2);
+        //     }else{
+        //     console.log (num2+ " es mayor que "+num1);
+        //     }
+        //     var boolVar = true;
+        //     let resultado = boolvar && (numi > num2);
+        //     console.log(resultado);
+        //     Let ternaryResult = (num1 > num2) ? (num1)+" es mayor que "+(num2) : (num1)+"es menor o igual que "+(num2);
+        //     console.log(ternaryResult)
+        //         let person = {
+        //         name: "Daniel",
+        //         age: "20",
+        //         city: "Ocaña",
+        //         };
+        //         console.log ("nombre",person.nombre);
+        //         let property = "age";
+        //         console.log("edad",person[property]);
+        //         console.log("tipo de person", typeof person);
+        //         console.log("tipo de person.name", typeof person.name);
+        //         console.log("tipo de variable", typeof x)
+        //             const mayor_edad = 20;
+        //             if (edad >= 20) {
+        //                 console.log("eres mayor de edad");
+        //             }
+        //             else {
+        //                 console.log("eres menor de edad");
+        //             }
+        var diaDeLaSemana = "lunes";
+        switch (diaDeLaSemana) {
+            case "lunes":
+                console.log("Hoy es lunes.");
+                break;
+            case "martes":
+                console.log("Hoy es martes.");
+                break;
+            case "miércoles":
+                console.log("Hoy es miércoles.");
+                break;
+            case "jueves":
+                console.log("Hoy es jueves.");
+                break;
+            case "viernes":
+                console.log("Hoy es viernes.");
+                break;
+            case "sábado":
+                console.log("Hoy es sábado.");
+                break;
+            case "domingo":
+                console.log("Hoy es domingo.");
+                break;
+            default:
+                console.log("No es un día válido.");
         }
-        myFunction();
-        console.log(globalVar);
-        console.log(locarVar);
-
-
     </script>
 </body>
+
 </html>
-Crea una función llamada myFunction que contenga una variable local 
-llamada localVar con el valor 20. Dentro de la función, muestra por consola el valor 
-de una variable global llamada globalVar que tiene el valor 10 y la variable localVar. 
-Llama a la función myFunction y luego intenta mostrar por consola el valor de 
-globalVar fuera de la función. Intenta también mostrar por consola el valor de 
-localVar fuera de la función y observa qué ocurre.
