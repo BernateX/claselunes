@@ -238,3 +238,7 @@ header{
 }
 
 /*End Estilos Generales Cards*/
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
